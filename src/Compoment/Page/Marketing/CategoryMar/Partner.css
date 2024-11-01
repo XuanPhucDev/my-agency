@@ -1,0 +1,19 @@
+.partner {
+  margin: 40px 0;
+}
+.partner h4{
+    font-size: 36px;
+}
+.partner .container .row{
+    justify-content: center;
+    align-items: center;
+}
+.slide-partner img {
+  width: 100%;
+}
+
+.slide-partner .slick-slide {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+}
