@@ -41,6 +41,15 @@
 .popular .features .thumb-features img {
   width: 50%;
 }
+.popular .features .thumb-features h4{
+  font-size: 20px;
+  font-weight: 700;
+}
+.popular .features .thumb-features p{
+  font-size: 15px;
+  font-weight: 400;
+  text-align: justify;
+}
 .popular .view-more {
   display: flex;
   justify-content: center;

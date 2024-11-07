@@ -29,7 +29,7 @@ const Header = () => {
           <NavLink className="item-menu" to="/">
             Trang Chủ
           </NavLink>
-          <NavLink className="item-menu" to="/about-me">
+          <NavLink className="item-menu" to="/about-us">
             Về Chúng Tôi
           </NavLink>
           <div className="menu-item">

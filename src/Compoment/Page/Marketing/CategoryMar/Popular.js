@@ -2,17 +2,16 @@ import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import dataFeatures from "../../../../Context/Data/FeaturesPageMarketing";
 import "./Popular.css";
+import Title from "../../../Global/Title/Title";
 const Popular = () => {
   const FeaturesTop = dataFeatures.filter((item) => item.top === true);
   return (
-    <div className="popular">
+    <div className="popular space-compoment">
       <Container>
         <Row>
-          <div className="heading-popular">
             <Col>
-              <h3>Các dịch vụ Digital Marketing phổ biến để xây dựng doanh nghiệp của bạn</h3>
+            <Title title="Dịch vụ Digital Marketing" des="Dịch vụ phổ biến dành cho bạn"></Title>
             </Col>
-          </div>
         </Row>
         <Row>
           <div className="features flex flex-row">

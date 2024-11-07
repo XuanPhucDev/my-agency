@@ -128,11 +128,11 @@
 }
 .menu-pc a {
   padding: 20px 0;
-  color: var(--paraphase-color);
+  color: var(--logo-primary-color);
+  font-size: 18px;
 }
 .menu-pc a.active {
-  color: var(--tertiary-color);
-  font-size: 16px;
+  color: var(--title-color);
   font-weight: 700;
   transition: 0.5s ease-in-out;
 }

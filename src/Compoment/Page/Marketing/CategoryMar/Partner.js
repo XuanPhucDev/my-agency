@@ -3,6 +3,7 @@ import { Col, Container, Row } from "react-bootstrap";
 import useAxios from "../../../../Context/API/UseAxios";
 import Slider from "react-slick";
 import "./Partner.css";
+import Title from "../../../Global/Title/Title";
 const Partner = () => {
   const dataPartner = useAxios(
     "https://6716463e33bc2bfe40bd35cb.mockapi.io/demoapi-xuanphuc/userData"
@@ -17,11 +18,11 @@ const Partner = () => {
     autoplaySpeed: 1500, // Thời gian giữa các lần chuyển
   };
   return (
-    <div className="partner flex flex-row">
+    <div className="partner flex flex-row space-compoment">
       <Container>
         <Row>
           <Col lg={3}>
-            <h4>Các đối tác của D.A.C</h4>
+          <Title des="Về D.A.C" title="Đối tác nổi bật"></Title>
           </Col>
           <Col lg={9}>
             <div className="slide-partner">

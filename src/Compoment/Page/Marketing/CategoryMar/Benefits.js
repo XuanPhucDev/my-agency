@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import "./Benefits.css";
 import DataBenefits from "../../../../Context/Data/DataBenefits";
+import Title from "../../../Global/Title/Title";
 const Benefits = () => {
   const [hoveredIndex, setHoveredIndex] = useState(null);
 
@@ -9,13 +10,11 @@ const Benefits = () => {
   const handleMouseLeave = () => setHoveredIndex(null);
 
   return (
-    <div className="Benefits">
+    <div className="Benefits space-compoment">
       <Container>
         <Row>
           <Col>
-            <div className="tagline">
-              <h3>Lợi ích của SEO & Digital Marketing</h3>
-            </div>
+          <Title des="Về D.A.C" title="Lợi ích của SEO & Digital Marketing"></Title>
           </Col>
         </Row>
         <div className="content">

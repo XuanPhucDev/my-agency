@@ -1,18 +1,26 @@
-import React from 'react';
-import { Col, Container, Row } from 'react-bootstrap';
-
+import React from "react";
+import "./AboutUs.css";
+import HeadingPage from "../../Global/Title/HeadingPage";
+import About from "../Marketing/CategoryMar/About";
+import Partner from "../Marketing/CategoryMar/Partner";
+import WhyChooseUs from "./WhyChooseUs";
+import Vision from "../Marketing/CategoryMar/Vision";
+import OurHistory from "./OurHistory";
+import FeedbackCustomer from "../Marketing/CategoryMar/Feedback";
+import OurSkill from "./OurSkill";
 const AboutUs = () => {
-    return (
-        <div className='page-about-us'>
-            <Container>
-                <Row>
-                    <Col lg={12}>
-                        
-                    </Col>
-                </Row>
-            </Container>
-        </div>
-    );
+  return (
+    <div className="page-about-us">
+      <HeadingPage title="About Us"></HeadingPage>
+      <About></About>
+      <Partner></Partner>
+      <WhyChooseUs></WhyChooseUs>
+      <Vision></Vision>
+      <OurHistory></OurHistory>
+      <OurSkill></OurSkill>
+      <FeedbackCustomer></FeedbackCustomer>
+    </div>
+  );
 };
 
 export default AboutUs;

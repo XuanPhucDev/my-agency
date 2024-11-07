@@ -3,6 +3,7 @@ import { Col, Container, Row, Tab, Tabs } from "react-bootstrap";
 import ThumbProductMarketing from "./ThumbProductMarketing";
 import useAxios from "../../../../Context/API/UseAxios";
 import FadeInSection from "../../../../Features/FadeInSection";
+import Title from "../../../Global/Title/Title";
 
 const Product = () => {
   const data = useAxios(
@@ -17,21 +18,14 @@ const Product = () => {
   };
 
   return (
-    <>
-      <Container className="Product-Marketing">
+    <div className="space-compoment">
+      <Container className="Product-Marketing ">
         <FadeInSection>
-          <div className="heading-page">
-            <div className="text-center">
-              <h2>List Product</h2>
-              <h3>Đa dạng mẫu thiết kế</h3>
-            </div>
-          </div>
+          <Title
+            des="Mẫu sản phẩm của D.A.C"
+            title="Các mẫu giao diện của chúng tôi"
+          ></Title>
         </FadeInSection>
-        <p>
-          Bạn có thể chọn mẫu phù hợp để phát triển thêm hoặc yêu cầu thiết kế
-          mới hoàn toàn. Chúng tôi luôn sẵn sàng thư viện mẫu thiết kế giúp bạn
-          dễ dàng hình dung và tối ưu tiến độ xây dựng website.
-        </p>
         <Tabs
           defaultActiveKey="all"
           id="uncontrolled-tab-example"
@@ -78,7 +72,7 @@ const Product = () => {
           ))}
         </Tabs>
       </Container>
-    </>
+    </div>
   );
 };
 

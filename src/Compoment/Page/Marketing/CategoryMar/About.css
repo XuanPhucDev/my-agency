@@ -28,6 +28,10 @@
 .about-marketing .text-about-us img{
   width: 20%;
   animation: rotate-reverse 4s linear infinite;
+  margin-bottom: 20px ;
+}
+.about-marketing .text-about-us button{
+  margin-top: 20px;
 }
 .about-marketing .text-about-us button i{
   transform: rotate(-45deg);
@@ -98,7 +102,7 @@
   transition: all 1s ease-in-out;
 }
 .about-marketing button:hover{
-  margin-top: -10px;
-  transition: all .5s ease-in-out;
+  margin-top: 0;
+  transition: .5s ease-in-out;
 
 }

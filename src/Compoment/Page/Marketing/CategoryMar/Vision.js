@@ -1,21 +1,18 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import "./Vision.css";
+import Title from "../../../Global/Title/Title";
 const Vision = () => {
   return (
-    <div className="vision">
+    <div className="vision space-compoment">
       <Container>
         <Row>
-          <div className="heading-vision">
-            <Col>
-              <h3>Tầm nhìn - Sứ Mệnh - Giá Trị Cốt Lõi D.A.C</h3>
-              <p>
-                Chúng tôi tự hào khi cung cấp một đề xuất giá trị vượt xa mong
-                đợi. Cách tiếp cận của chúng tôi tập trung vào việc hiểu doanh
-                nghiệp của bạn bên trong.
-              </p>
-            </Col>
-          </div>
+          <Col>
+            <Title
+              des="Về D.A.C"
+              title="Tầm nhìn - Sứ Mệnh - Giá Trị Cốt Lõi"
+            ></Title>
+          </Col>
         </Row>
         <Row>
           <Col lg={6}>
